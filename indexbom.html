@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Luxury - Entrar</title>
+    <link rel="stylesheet" href="Auxiliares/Styles.css">
+</head>
+<body>
+
+    <div class="hotel-header">
+        <h1>Bem-vindo ao BlaBlaBla Hotel Almodôvá</h1>
+        <p style="font-style: italic;">Estrada de Almodôvar, 7700-016</p>
+    </div>
+
+    <main class="login-container">
+        <section class="nif-box">
+            <h2>Área das T-shirts</h2>
+            <p>Introduza o seu nif para comprar as nossas T-shirts exclusivas</p>
+            
+            <div class="input-group">
+                <input type="text" id="nif-input" placeholder="Digite o NIF (9 dígitos)" maxlength="9">
+                <button onclick="verificarNIF()" class="btn-verificar">Virificar</button>
+            </div>
+
+            <a href="catalogo.html" id="link-catalogo" class="btn-bloqueado">
+                Ir para o Catálogo here
+            </a>
+        </section>
+    </main>
+
+    <div class="texto-cantodireito">
+        <h3>Horário:</h3>
+        <p>Segunda a Sexta: 9h às 22h</p>
+        <p>Sábado: 10h às 21h</p>
+        <p>Domingo: 13h às 18h</p>
+        <p>Feriados: Fechado</p>
+    </div>
+
+    <script src="Auxiliares/nifVerificacao.js"></script>
+</body>
+</html>
